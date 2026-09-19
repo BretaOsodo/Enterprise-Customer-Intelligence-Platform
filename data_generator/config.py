@@ -18,8 +18,8 @@ DEFAULT_SEED:int = 42
 @dataclass
 class Counts:
     customers: int =10_000
-    mobile_usage:int= 500_000
-    financial_transactions: int = 1_000_000
+    mobile_usage:int= 10_000
+    financial_transactions: int = 10_000
     credit_accounts: int =20_000
     fiber_subscriptions: int =5_000
     fiber_usage: int = 200_000
