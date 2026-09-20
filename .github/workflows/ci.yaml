@@ -45,6 +45,26 @@ jobs:
       - name: Set up Docker build
         uses: docker/setup-buildx-action@v4
 
+      - name: Create placeholder .env for compose validation
+        run: |
+          cat <<EOF > .env
+          FERNET_KEY=
+          AIRFLOW_UID=50000
+          DOCKER_CONTAINER=postgres-dbt
+          DOCKER_IMAGE=my-postgres-image
+          POSTGRES_SCHEMA=customer_360_platform
+          POSTGRES_USER=postgres
+          POSTGRES_DB=postgres
+          POSTGRES_PASSWORD=postgres
+          HOST_PORT=5432
+          CONTAINER_PORT=5432
+          PGADMIN_EMAIL=ci@example.com
+          PGADMIN_PASSWORD=ci
+          PGADMIN_PORT=5050
+          AWS_ACCESS_KEY=ci
+          AWS_SECRET_KEY=ci
+          EOF
+
       - name: Build docker
         run: |
           docker compose up -d --build
