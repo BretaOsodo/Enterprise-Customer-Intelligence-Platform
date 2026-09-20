@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a35aaa94-fbca-40e6-b76e-be6c8ec33532" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.ai/mcp/mcp.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflow/ci.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflow/ci.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dags/load_s3_data_to_bronze.py" beforeDir="false" afterPath="$PROJECT_DIR$/dags/load_s3_data_to_bronze.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/01_project_overview.md" beforeDir="false" afterPath="$PROJECT_DIR$/01_project_overview.md" afterDir="false" />
-    </list>
+    <list default="true" id="a35aaa94-fbca-40e6-b76e-be6c8ec33532" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +54,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "Merging main",
+    "git-widget-placeholder": "breta",
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "C:/Users/ADMIN/Desktop/MY PROJECTS/Customer-360-intelligence-platform-end-to-end",
