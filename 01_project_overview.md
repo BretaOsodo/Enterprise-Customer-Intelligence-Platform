@@ -156,7 +156,7 @@ Includes:
 - Credit status
 
 ## 6. Architecture 
-![Architecture](../image.png)
+![Architecture](image.png)
 
 ## 7. Technological Stack
 | Component | Technology | Purpose |
