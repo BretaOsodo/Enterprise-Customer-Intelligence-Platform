@@ -20,7 +20,7 @@ default_args = {
     dag_id="load_s3_data_to_bronze",
     default_args=default_args,
     description="Load data from S3 into Bronze",
-    schedule=timedelta(minutes=10),
+    schedule=timedelta(minutes=55),
     start_date=datetime(2026, 1, 1),
     catchup=False,  # True here would backfill every 10-min interval since Jan 2026
     tags=["data-generator", "s3", "postgres", "bronze", "dbt"],
