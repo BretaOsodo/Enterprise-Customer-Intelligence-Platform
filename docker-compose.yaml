@@ -367,8 +367,8 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - ./dbt_project:/usr/app
-      - ./dbt_project/.dbt:/root/.dbt`
+      - ./dbt_customer_360:/usr/app
+      - ./dbt_customer_360/.dbt:/root/.dbt
     depends_on:
       - postgres_warehouse
 

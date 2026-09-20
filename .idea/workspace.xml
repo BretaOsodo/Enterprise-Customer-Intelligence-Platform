@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a35aaa94-fbca-40e6-b76e-be6c8ec33532" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/dbt_customer_360/.dbt/profiles.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dbt_customer_360/models/test_connections.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +71,7 @@
       <recent name="C:\Users\ADMIN\Desktop\MY PROJECTS\Customer-360-intelligence-platform-end-to-end" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ADMIN\Desktop\MY PROJECTS\Customer-360-intelligence-platform-end-to-end\data_generator" />
       <recent name="C:\Users\ADMIN\Desktop\MY PROJECTS\Customer-360-intelligence-platform-end-to-end" />
     </key>
   </component>
