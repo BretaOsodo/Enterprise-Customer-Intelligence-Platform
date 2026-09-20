@@ -1,6 +1,5 @@
 .env
 data/
-config/
 logs/
 plugins/
 __pycache__/
