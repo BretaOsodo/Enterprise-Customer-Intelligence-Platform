@@ -1,0 +1,44 @@
+version: 2
+
+models:
+  - name: int_customers
+    description: >
+      One deduplicated row per customer (most recently created version kept),
+      with blank strings normalized to NULL and email masked for privacy.
+      Materialized as a view, so no PK/FK constraints are enforced here --
+      see tests below for soft uniqueness/not_null checks instead.
+    columns:
+      - name: customer_id
+        description: Deduplicated, non-null customer identifier.
+        tests:
+          - not_null
+          - unique
+
+      - name: first_name
+      - name: last_name
+      - name: full_name
+      - name: gender
+
+      - name: date_of_birth
+        description: Customer date of birth, cast from bronze; NULL if the source value wasn't a valid date.
+
+      - name: phone_number
+
+      - name: email
+        description: Original email address (unmasked). Prefer email_masked for anything user-facing/reporting.
+
+      - name: county
+      - name: town
+      - name: customer_type
+
+      - name: registration_date
+        description: Customer registration date, cast from bronze; NULL if the source value wasn't a valid date.
+
+      - name: customer_status
+      - name: created_at
+      - name: updated_at
+
+      - name: email_masked
+        description: >
+          Email with the local part partially hidden (e.g. "jo***@example.com").
+          NULL when the source email was blank or didn't contain "@".
