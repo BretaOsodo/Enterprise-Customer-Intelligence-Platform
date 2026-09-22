@@ -1,4 +1,9 @@
-{{ config(materialized='view') }}
+{{ config(materialized='view',
+    indexes=[
+    {'columns': ['credit_account_id','customer_id'], 'unique':True},
+    {'columns':['customer_id','credit_limit','status','opened_date','product_type','due_date'],'type':'btree'}
+    ])
+ }}
 
 with cleaned_columns as(
 select

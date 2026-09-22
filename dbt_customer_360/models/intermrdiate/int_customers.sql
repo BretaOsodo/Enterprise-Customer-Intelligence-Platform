@@ -1,4 +1,5 @@
-{{ config(materialized='view') }}
+{{ config(materialized='view')
+ }}
 -- dedupe the data
 WITH dedupe AS(
     SELECT *
@@ -40,10 +41,40 @@ from nullifying_the_data
 ),
 removing_null as (
 SELECT
-    customer_id, first_name, last_name, full_name, gender,
-        date_of_birth, phone_number, email, county, town,
-        customer_type, registration_date, customer_status,
-        created_at, updated_at, email_masked
+    customer_id,
+    first_name,
+    last_name,
+    full_name,
+    INITCAP (case
+		when gender='F' then 'Female'
+		when gender ='M' then 'Male'
+	else gender
+	end) as gender,
+    date_of_birth,
+    phone_number,
+    email,
+    county,
+    town,
+    INITCAP(case
+		when customer_type='???' then null
+		when customer_type='INVALID' then null
+		when customer_type='N/A' then null
+		when customer_type='NONE' then null
+		when customer_type='UNKNOWN' then null
+	else customer_type
+	end) as customer_type,
+	registration_date,
+	INITCAP(case
+ 	when customer_status ='???' then null
+	 when customer_status='INVALID' then null
+	 when customer_status='N/A' then null
+	 when customer_status='NONE' then null
+	 when customer_status= 'UNKNOWN' then null
+	else customer_status
+	end) as customer_status,
+    created_at,
+    updated_at,
+    email_masked
 FROM masking_email
 WHERE customer_id IS NOT NULL
 )
