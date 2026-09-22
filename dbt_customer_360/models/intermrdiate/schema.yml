@@ -42,3 +42,26 @@ models:
         description: >
           Email with the local part partially hidden (e.g. "jo***@example.com").
           NULL when the source email was blank or didn't contain "@".
+
+  - name: int_credit_accounts
+    description: >
+      This view table contains the data about the credit information about the customers 
+
+    columns:
+      - name: credit_account_id
+        tests:
+          - unique
+          - not_null
+
+      - name: customer_id
+      - name: credit_limit
+      - name: product_type
+      - name: amount_borrowed
+      - name: amount_repaid
+      - name: outstanding_balance
+      - name: interest_rate
+      - name: opened_date
+      - name: due-date
+      - name: status
+      - name: created_at
+      - name: updated_at

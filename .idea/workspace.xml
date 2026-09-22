@@ -5,16 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a35aaa94-fbca-40e6-b76e-be6c8ec33532" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dbt_customer_360/models/intermrdiate/int_credit_accounts.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dbt_customer_360/models/intermrdiate/int_customers.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dbt_customer_360/models/intermrdiate/schema.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dbt_customer_360/models/staging/schema.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dbt_customer_360/models/staging/sources.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dbt_customer_360/models/staging/stg_credit_accounts.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dbt_customer_360/models/staging/stg_customers.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dbt_customer_360/models/staging/stg_digital_services.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dbt_customer_360/models/staging/stg_enterprise_services.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dbt_customer_360/models/staging/stg_fiber_subscriptions.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dbt_customer_360/models/staging/stg_fiber_usage.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dbt_customer_360/models/staging/stg_financial_transactions.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dbt_customer_360/models/staging/stg_mobile_usage.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbt_customer_360/dbt_project.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_customer_360/dbt_project.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbt_customer_360/models/test_connections.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_customer_360/models/intermrdiate/int_credit_accounts.sql" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_customer_360/models/intermrdiate/int_credit_accounts.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_customer_360/models/intermrdiate/schema.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_customer_360/models/intermrdiate/schema.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_customer_360/models/staging/stg_device_purchases.sql" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_customer_360/models/staging/stg_device_purchases.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +65,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "breta",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "C:/Users/ADMIN/Desktop/MY PROJECTS/Customer-360-intelligence-platform-end-to-end",
