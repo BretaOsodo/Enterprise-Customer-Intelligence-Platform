@@ -50,9 +50,15 @@ SELECT
 		when gender ='M' then 'Male'
 	else gender
 	end) as gender,
+	case
+		when lower(trim(gender))='male' then 'M'
+		when lower(trim(gender))='female' then 'F'
+	else null
+	end as gender_short,
     date_of_birth,
     phone_number,
     email,
+    email_masked,
     county,
     town,
     INITCAP(case
@@ -73,8 +79,7 @@ SELECT
 	else customer_status
 	end) as customer_status,
     created_at,
-    updated_at,
-    email_masked
+    updated_at
 FROM masking_email
 WHERE customer_id IS NOT NULL
 )

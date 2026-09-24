@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a35aaa94-fbca-40e6-b76e-be6c8ec33532" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/dbt_customer_360/models/intermrdiate/int_device_purchases.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dbt_customer_360/models/intermrdiate/int_digital_services.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dbt_customer_360/models/intermrdiate/int_enterprise_services.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dbt_customer_360/models/intermrdiate/int_fiber_subscriptions.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dbt_customer_360/models/intermrdiate/int_fiber_usage.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dbt_customer_360/models/intermrdiate/int_financial_transactions.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbt_customer_360/models/intermrdiate/int_credit_accounts.sql" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_customer_360/models/intermrdiate/int_credit_accounts.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dbt_customer_360/models/intermrdiate/int_customers.sql" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_customer_360/models/intermrdiate/int_customers.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
